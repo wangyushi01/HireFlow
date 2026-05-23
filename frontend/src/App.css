@@ -1,0 +1,75 @@
+/* AI 招聘管理平台 - Global Styles */
+
+/* Markdown report content */
+.ai-report-content h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #1890ff;
+}
+.ai-report-content h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 14px 0 10px;
+  color: #1a1a1a;
+}
+.ai-report-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 12px 0 8px;
+  color: #333;
+}
+.ai-report-content p {
+  margin: 6px 0;
+  line-height: 1.7;
+}
+.ai-report-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 13px;
+}
+.ai-report-content table th {
+  background: #f0f5ff;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid #d9d9d9;
+}
+.ai-report-content table td {
+  padding: 6px 12px;
+  border: 1px solid #e8e8e8;
+}
+.ai-report-content table tr:nth-child(even) td {
+  background: #fafafa;
+}
+.ai-report-content ul,
+.ai-report-content ol {
+  margin: 8px 0;
+  padding-left: 24px;
+}
+.ai-report-content li {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+.ai-report-content strong {
+  color: #1890ff;
+}
+.ai-report-content blockquote {
+  margin: 8px 0;
+  padding: 8px 16px;
+  background: #fffbe6;
+  border-left: 4px solid #faad14;
+}
+.ai-report-content hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #e8e8e8;
+}
+.ai-report-content code {
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 13px;
+}

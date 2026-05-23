@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 招聘管理平台</title>
+    <style>
+      /* Instant loading screen - no JS needed */
+      #initial-loader {
+        position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+        display: flex; flex-direction: column;
+        align-items: center; justify-content: center;
+        background: linear-gradient(135deg, #0c0f1d 0%, #1a1f3a 50%, #151b30 100%);
+        z-index: 99999;
+        transition: opacity 0.3s;
+      }
+      #initial-loader.hide { opacity: 0; pointer-events: none; }
+      .loader-spinner {
+        width: 36px; height: 36px;
+        border: 3px solid rgba(102,126,234,0.2);
+        border-top-color: #667eea;
+        border-radius: 50%;
+        animation: loader-spin 0.8s linear infinite;
+      }
+      .loader-text {
+        margin-top: 16px; color: rgba(255,255,255,0.5);
+        font-size: 13px; font-family: -apple-system, sans-serif;
+      }
+      @keyframes loader-spin { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="initial-loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">加载中...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
